@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var kelas = prompt("Sekarang, kamu kelas berapa smp?");
+
+        
+        if(kelas=="7"||kelas=="1"){
+            alert("Kira Kira Kamu akan lulus tahun 2020");
+        }else if(kelas =="8"||kelas=="2"){
+            alert("Kira Kira Kamu akan lulus tahun 2019");
+        }else if(kelas == "9"||kelas=="3"){
+            alert("Kira Kira Kamu akan lulus tahun 2018");
+        }else{
+            alert('Hmmmm...... Salah Web Ya');
+        }
+    </script>
+    
+</body>
+</html>
