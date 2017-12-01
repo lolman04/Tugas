@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = prompt('Berapa Alas ??');
+        var c = prompt('Berapa Sisi Sejajar Alas ??');
+        var t = prompt('Berapa Tinggi ??');
+        alert("Luasnya adalah "+1/2*(a+c)*t+" cm");
+    </script>
+</body>
+</html>
+
+<!-- 1/2 x (a + c) x t -->
