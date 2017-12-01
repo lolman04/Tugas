@@ -9,7 +9,7 @@
 <body>
     <script>
     var Kota = prompt("Dimana Kotamu?")
-    if (Kota == Semarang) {
+    if (Kota == "Semarang") {
         alert("oh yaudah")
     } else {
         alert("Ntar " + nama + " Kebanjiran")
