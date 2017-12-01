@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var nilai=0;
+        const soal1 ={
+        "soal":"Open",
+        "jawaban":"Buka"
+    };
+    var jawaban=prompt(soal1.soal+" ,Berarti ?");
+    if(jawaban == soal1.jawaban){
+        nilai++;
+    }
+    const soal2 ={
+        "soal":"Close",
+        "jawaban":"Tutup"
+    };
+    jawaban=prompt(soal2.soal+" ,Berarti ?");
+    if(jawaban == soal2.jawaban){
+        nilai++;
+    }
+    const soal3 ={
+        "soal":"See",
+        "jawaban":"Melihat"
+    };
+    jawaban=prompt(soal3.soal+" ,Berarti ?");
+    if(jawaban == soal3.jawaban){
+        nilai++;
+    }
+    const soal4 ={
+        "soal":"Kicthen",
+        "jawaban":"Dapur"
+    };
+    jawaban=prompt(soal4.soal+" ,Berarti ?");
+    if(jawaban == soal4.jawaban){
+        nilai++;
+    }
+    const soal5 ={
+        "soal":"Fork",
+        "jawaban":"Garpu"
+    };
+    jawaban=prompt(soal5.soal+" ,Berarti ?");
+    if(jawaban == soal5.jawaban){
+        nilai++;
+    }
+   
+    
+    alert("Score kamu : "+ nilai);
+   
+</script>
+    
+</body>
+</html>
