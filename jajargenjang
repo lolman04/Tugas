@@ -9,8 +9,8 @@
 </head>
 <body>
     <script>
-        var L = prompt('Berapa panjangnya ??');
-        var l = prompt('Berapa Lebarnya ??');
+        var L = prompt('Berapa Alas ??');
+        var l = prompt('Berapa Tinggi ??');
         alert("Luasnya adalah "+L*l+" cm");
     </script>
 </body>
