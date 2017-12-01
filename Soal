@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var skor=0;
+        const soal1 ={
+        "soal":"9x9",
+        "jawaban":"81"
+    };
+    var jawaban=prompt(soal1.soal+" ,Berapa Jawabnnya???");
+    if(jawaban == soal1.jawaban){
+        nilai++;
+    }
+    const soal2 ={
+        "soal":"10+49",
+        "jawaban":"59"
+    };
+    jawaban=prompt(soal2.soal+" ,Berapa Jawabannya???");
+    if(jawaban == soal2.jawaban){
+        nilai++;
+    }
+    const soal3 ={
+        "soal":" 50-25",
+        "jawaban":"25"
+    };
+    jawaban=prompt(soal3.soal+" ,Berapa Jawabannya?");
+    if(jawaban == soal3.jawaban){
+        nilai++;
+    }
+    const soal4 ={
+        "soal":"7x10",
+        "jawaban":"70"
+    };
+    jawaban=prompt(soal4.soal+" ,Berapa Jawabannya?");
+    if(jawaban == soal4.jawaban){
+        nilai++;
+    }
+    const soal5 ={
+        "soal":"10x10",
+        "jawaban":"100"
+    };
+    jawaban=prompt(soal5.soal+" ,Berapa Jawabannya?");
+    if(jawaban == soal5.jawaban){
+        nilai++;
+    }
+    const soal6 ={
+        "soal":"27:3",
+        "jawaban":"9"
+    };
+    jawaban=prompt(soal6.soal+" ,Berapa Jawabannya?");
+    if(jawaban == soal6.jawaban){
+        nilai++;
+    }
+    const soal7 ={
+        "soal":"14:2",
+        "jawaban":"7"
+    };
+    jawaban=prompt(soal7.soal+" ,Berapa Jawabannya?");
+    if(jawaban == soal7.jawaban){
+        nilai++;
+    }
+    const soal8 ={
+        "soal":"14x3",
+        "jawaban":"42"
+    };
+    jawaban=prompt(soal8.soal+" ,Berapa Jawabannya?");
+    if(jawaban == soal8.jawaban){
+        nilai++;
+    }
+    const soal9 ={
+        "soal":"140:2",
+        "jawaban":"70"
+    };
+    jawaban=prompt(soal9.soal+" ,Berapa Jawabannya?");
+    if(jawaban == soal9.jawaban){
+        nilai++;
+    }
+    const soal10 ={
+        "soal":"40x5",
+        "jawaban":"200"
+    };
+    jawaban=prompt(soal10.soal+" ,Berapa Jawabannya?");
+    if(jawaban == soal10.jawaban){
+        nilai++;
+    }
+    alert("Nilai kamu : "+ nilai);
+   
+</script>
+    
+</body>
+</html>
