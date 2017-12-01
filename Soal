@@ -15,7 +15,7 @@
     };
     var jawaban=prompt(soal1.soal+" ,Berapa Jawabnnya???");
     if(jawaban == soal1.jawaban){
-        nilai++;
+        skor++;
     }
     const soal2 ={
         "soal":"10+49",
@@ -23,7 +23,7 @@
     };
     jawaban=prompt(soal2.soal+" ,Berapa Jawabannya???");
     if(jawaban == soal2.jawaban){
-        nilai++;
+        skor++;
     }
     const soal3 ={
         "soal":" 50-25",
@@ -31,7 +31,7 @@
     };
     jawaban=prompt(soal3.soal+" ,Berapa Jawabannya?");
     if(jawaban == soal3.jawaban){
-        nilai++;
+        skor++;
     }
     const soal4 ={
         "soal":"7x10",
@@ -39,7 +39,7 @@
     };
     jawaban=prompt(soal4.soal+" ,Berapa Jawabannya?");
     if(jawaban == soal4.jawaban){
-        nilai++;
+        skor++;
     }
     const soal5 ={
         "soal":"10x10",
@@ -47,7 +47,7 @@
     };
     jawaban=prompt(soal5.soal+" ,Berapa Jawabannya?");
     if(jawaban == soal5.jawaban){
-        nilai++;
+        skor++;
     }
     const soal6 ={
         "soal":"27:3",
@@ -55,7 +55,7 @@
     };
     jawaban=prompt(soal6.soal+" ,Berapa Jawabannya?");
     if(jawaban == soal6.jawaban){
-        nilai++;
+        skor++;
     }
     const soal7 ={
         "soal":"14:2",
@@ -63,7 +63,7 @@
     };
     jawaban=prompt(soal7.soal+" ,Berapa Jawabannya?");
     if(jawaban == soal7.jawaban){
-        nilai++;
+        skor++;
     }
     const soal8 ={
         "soal":"14x3",
@@ -71,7 +71,7 @@
     };
     jawaban=prompt(soal8.soal+" ,Berapa Jawabannya?");
     if(jawaban == soal8.jawaban){
-        nilai++;
+        skor++;
     }
     const soal9 ={
         "soal":"140:2",
@@ -79,7 +79,7 @@
     };
     jawaban=prompt(soal9.soal+" ,Berapa Jawabannya?");
     if(jawaban == soal9.jawaban){
-        nilai++;
+        skor++;
     }
     const soal10 ={
         "soal":"40x5",
@@ -87,9 +87,9 @@
     };
     jawaban=prompt(soal10.soal+" ,Berapa Jawabannya?");
     if(jawaban == soal10.jawaban){
-        nilai++;
+        skor++;
     }
-    alert("Nilai kamu : "+ nilai);
+    alert("Score kamu : "+ skor);
    
 </script>
     
