@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var Absen = prompt("Berapa Nomor Absenmu?");
+
+        
+        if (1 < Absen && Absen < 10 || Absen == 1 || Absen == 10 ) {
+            alert("Nama Depanmu Antara A-C kan ")
+        }else if (11 < Absen && Absen < 20 || Absen == 11 || Absen == 20 ) {
+            alert('Nama Depanmu Antara D-L kan')
+        }else if (21 < Absen && Absen < 30 || Absen == 21 || Absen == 30 ) {
+            alert('Nama Depanmu Antara M-P kan')
+        }else if (31 < Absen && Absen < 36 || Absen == 31 || Absen == 36 ) {
+            alert('Nama Depanmu Antara Q-Z kan')
+        }  else {
+            alert("Nggak Tau >.<")
+        }
+    </script>
+</body>
+</html>
